@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./tensorflow-test/env/lib/python3.1/site-packages"
+    ]
+}

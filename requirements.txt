@@ -1,20 +1,19 @@
-tensorflow==2.12.0
-pandas 
-dvc
-mlflow==2.2.2
-notebook
-numpy
-matplotlib
-seaborn
-python-box==6.0.2
-pyYAML
-tqdm
-ensure==1.0.2
-joblib
-types-PyYAML
-scipy
-Flask
-Flask-Cors
-gdown
-python-box
-#-e .
+beautifulsoup4==4.12.3
+certifi==2024.2.2
+charset-normalizer==3.3.2
+# Editable install with no version control (cnnClassifier==0.0.0)
+-e /Users/sreyachowdarynagineni/opt/anaconda3/envs/kidney/lib/python3.8/site-packages/cnnClassifier-0.0.0-py3.8.egg
+ensure==1.0.4
+filelock==3.14.0
+gdown==5.2.0
+idna==3.7
+joblib==1.4.2
+package_name==0.1
+PySocks==1.7.1
+python-box==7.1.1
+PyYAML==6.0.1
+requests==2.32.2
+six==1.16.0
+soupsieve==2.5
+tqdm==4.66.4
+urllib3==2.2.1

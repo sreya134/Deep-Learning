@@ -20,3 +20,77 @@
 [2024-05-27 21:34:14,614: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2024-05-27 22:11:46,807: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-05-27 22:11:46,810: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-27 22:11:46,810: INFO: common: created directory at: artifacts]
+[2024-05-27 22:12:36,959: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-05-27 22:12:36,966: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-27 22:12:36,969: INFO: common: created directory at: artifacts]
+[2024-05-27 22:12:36,970: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-05-27 22:12:53,554: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-05-27 22:12:53,556: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-27 22:12:53,557: INFO: common: created directory at: artifacts]
+[2024-05-27 22:12:53,557: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-05-27 22:14:41,881: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-05-27 22:14:41,885: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-27 22:14:41,886: INFO: common: created directory at: artifacts]
+[2024-05-27 22:14:41,887: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-05-27 22:14:44,538: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-27 22:14:44,666: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-27 22:53:11,515: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-05-27 22:53:11,518: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-27 22:53:11,520: INFO: common: created directory at: artifacts]
+[2024-05-27 22:53:11,521: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-05-27 22:53:11,910: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-27 22:53:12,029: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-27 23:35:58,844: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-05-27 23:35:58,847: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-27 23:35:58,848: INFO: common: created directory at: artifacts]
+[2024-05-27 23:35:58,848: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-27 23:35:58,849: INFO: 925620196: Downloading data from https://drive.google.com/file/d/1XevtqOL2YAdmlwUodQug9aFP_o5E1s5K/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-27 23:36:01,865: INFO: 925620196: Downloaded data from https://drive.google.com/file/d/1XevtqOL2YAdmlwUodQug9aFP_o5E1s5K/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-27 23:36:46,576: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-05-27 23:36:46,579: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-27 23:36:46,580: INFO: common: created directory at: artifacts]
+[2024-05-27 23:36:46,580: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-05-27 23:36:46,885: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-27 23:36:46,986: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-27 23:43:37,278: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-27 23:43:37,280: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-05-27 23:43:37,282: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-27 23:43:37,282: INFO: common: created directory at: artifacts]
+[2024-05-27 23:43:37,282: ERROR: stage_01_data_ingestion: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "/Users/sreyachowdarynagineni/Desktop/Deeplearning/Deep-Learning/src/cnnClassifier/pipeline/stage_01_data_ingestion.py", line 26, in <module>
+    obj.main()
+  File "/Users/sreyachowdarynagineni/Desktop/Deeplearning/Deep-Learning/src/cnnClassifier/pipeline/stage_01_data_ingestion.py", line 15, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2024-05-27 23:44:58,953: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-27 23:44:58,955: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-05-27 23:44:58,958: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-27 23:44:58,958: INFO: common: created directory at: artifacts]
+[2024-05-27 23:44:58,959: ERROR: stage_01_data_ingestion: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "/Users/sreyachowdarynagineni/Desktop/Deeplearning/Deep-Learning/src/cnnClassifier/pipeline/stage_01_data_ingestion.py", line 26, in <module>
+    obj.main()
+  File "/Users/sreyachowdarynagineni/Desktop/Deeplearning/Deep-Learning/src/cnnClassifier/pipeline/stage_01_data_ingestion.py", line 15, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2024-05-28 08:43:00,453: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-28 08:43:00,455: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-05-28 08:43:00,457: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-28 08:43:00,458: INFO: common: created directory at: artifacts]
+[2024-05-28 08:43:00,458: ERROR: stage_01_data_ingestion: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "/Users/sreyachowdarynagineni/Desktop/Deeplearning/Deep-Learning/src/cnnClassifier/pipeline/stage_01_data_ingestion.py", line 26, in <module>
+    obj.main()
+  File "/Users/sreyachowdarynagineni/Desktop/Deeplearning/Deep-Learning/src/cnnClassifier/pipeline/stage_01_data_ingestion.py", line 15, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2024-05-28 08:45:44,836: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-05-28 08:45:44,839: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-28 08:45:44,839: INFO: common: created directory at: artifacts]
+[2024-05-28 08:45:44,840: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-28 08:45:44,841: INFO: 925620196: Downloading data from https://drive.google.com/file/d/1XevtqOL2YAdmlwUodQug9aFP_o5E1s5K/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-28 08:45:47,997: INFO: 925620196: Downloaded data from https://drive.google.com/file/d/1XevtqOL2YAdmlwUodQug9aFP_o5E1s5K/view?usp=sharing into file artifacts/data_ingestion/data.zip]
