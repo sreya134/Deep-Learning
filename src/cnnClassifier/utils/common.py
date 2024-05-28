@@ -1,7 +1,21 @@
 import os
 from box.exceptions import BoxValueError
 import yaml
+import sys
+import os
+
+# Assuming this script is two levels deep inside the src/cnnClassifier/utils directory
+current_dir = os.path.dirname(os.path.abspath(__file__))
+src_dir = os.path.abspath(os.path.join(current_dir, '../../'))
+
+# Add the src directory to sys.path
+if src_dir not in sys.path:
+    sys.path.append(src_dir)
+
 from cnnClassifier import logger
+
+
+
 import json
 import joblib
 from ensure import ensure_annotations
